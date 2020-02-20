@@ -9,3 +9,4 @@ kubectl create -f my-pod.yml
 kubectl apply -f my-pod.yml
 kubectl delete pod my-pod
 kubectl delete -f my-pod.yml
+kubectl edit pod my-pod
