@@ -17,4 +17,4 @@ refer httpd.yml under deployments folder
 kubectl get configmaps; kubectl describe configmaps my-config-map
 refer my-config-map-pod.yml, apply the same; use kubectl logs my-configmap-pod
 refer my-configmap-volume-pod.yml, apply the same; use kubectl logs my-configmap-volume-pod
-kubectl exec <pod> -- ls /etc/config/name
+kubectl exec <pod> -- ls /etc/config/name / kubectl exec my-configmap-volume-pod -- cat /etc/config/myKey
