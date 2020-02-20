@@ -1,0 +1,7 @@
+kubectl api-resources -o name
+kubectl get pods
+kubectl get pods -n kube-system
+kubectl get nodes
+kubectl get node node1
+kubectl get node node1 -o yaml
+kubectl describe node node1
