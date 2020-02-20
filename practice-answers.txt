@@ -5,3 +5,7 @@ kubectl get nodes
 kubectl get node node1
 kubectl get node node1 -o yaml
 kubectl describe node node1
+kubectl create -f my-pod.yml
+kubectl apply -f my-pod.yml
+kubectl delete pod my-pod
+kubectl delete -f my-pod.yml
