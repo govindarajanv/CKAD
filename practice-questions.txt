@@ -13,3 +13,6 @@ Edit a running pod
 get the list of namespaces
 create a namespace 'test'
 Edit the yml file to add the pod to the namespace to 'test' 
+create a pod running with httpd image
+create a config map, get and describe the same
+Refer that config map in a pod and ensure your reference is successful
