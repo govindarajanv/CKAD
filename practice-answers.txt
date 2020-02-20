@@ -13,3 +13,6 @@ kubectl edit pod my-pod
 kubectl get namespaces
 kubectl create ns 'test'
 kubectl edit pod my-pod -n test
+refer httpd.yml under deployments folder
+kubectl get configmaps; kubectl describe configmaps my-config-map
+refer my-config-map-pod.yml, apply the same; use kubectl logs my-configmap-pod
