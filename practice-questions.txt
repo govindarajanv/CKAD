@@ -9,3 +9,4 @@ Refer https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/ and creat
 Modify the image from busybox to alpine and apply the changes
 delete the pod using pod name
 delete the pod using yml
+Edit a running pod
