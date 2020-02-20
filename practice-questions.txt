@@ -16,3 +16,5 @@ Edit the yml file to add the pod to the namespace to 'test'
 create a pod running with httpd image
 create a config map, get and describe the same
 Refer that config map in a pod and ensure your reference is successful
+Use configmap value from a mounted volume
+execute a command in the above pod like ls /etc/config/<key>
