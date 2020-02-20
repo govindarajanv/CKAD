@@ -1,0 +1,7 @@
+Get all api resources
+Get all pods
+Get system pods
+Get all nodes
+Get details about a single node
+Get node details in yaml format
+Get more details about a node object
