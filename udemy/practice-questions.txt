@@ -1,0 +1,6 @@
+1   create a pod defintion with nginx container image and create two pods using the pod definition
+    -   get the list of running pods
+    -   delete the pods
+    -   describe the pods
+    -   get the cluster info
+    -   get the list of name spaces
